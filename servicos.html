@@ -1,0 +1,1130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ws Serviços</title>
+    <link class="ico" rel="icon" href="img/logo2.jpg">
+    <style>
+        body {
+          margin: 0;
+          align-items: center;
+            font-family: Arial, sans-serif;
+            color: #333;
+            margin: auto;
+            padding: auto;
+            background-color: white;
+        }
+        .container {
+            width: 80%;
+            max-width: 1200px;
+            margin: px;
+            padding: 20px;
+        }
+        header {
+          text-align: center;
+            background-color: #444;
+            color: white;
+            padding: 15px 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .search-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 1em;
+        }
+        .search-container input[type="text"] {
+            padding: 0.5em;
+            width: 50%;
+            max-width: 300px;
+            border: 4px solid #444;
+            border-radius: 10px;
+        }
+        .search-container button {
+            width: 100px;
+            padding: 0.5em;
+            border: 2px solid #ddd;
+            background-color: #333;
+            color: white;
+            cursor: pointer;
+            border-radius: 10px;
+        }
+        section {
+            background-color: white;
+            padding: 10px;
+        }
+        
+ h2, h3 {
+          margin: 17px;
+          text-align: center;
+          color: #333;
+          font-size: 16px;
+          cursor: pointer;
+          transition: background-color 1.3s, transform 1.3s;
+        }
+  
+        h2, h3 :hover{
+     color: white;
+    background-color: #333;
+    width: justify-content;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 50px;
+        }
+        h4 {
+          margin: 30px;
+        }
+        p {
+          margin: 30px;
+            line-height: 1.6;
+        }
+        .servicos {
+            margin: 10px;
+            max-width: 300px;
+            height: auto;
+            border-radius: 8px;
+        }
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+        .social-links a img {
+            width: 40px;
+            height: 40px;
+        }
+        .logo {
+            width: 30% 100px;
+        }
+        footer {
+          margin: 0px;
+          align-content: center;
+          text-align: center;
+            background-color: #444;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        
+    .link-atecseven {
+      text-align: center;
+    text-emphasis: none;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: aqua;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.link-atecseven:hover {
+    color: white;
+    background-color: rgb(4, 4, 85);
+    border-radius: 5px;
+    font-size: 20px;
+}
+        .button{
+          color: #333;
+          background-color: white;
+          border-radius: 5px;
+          border-style: solid white;
+          
+          transition: color 0.1s;
+        }
+        :hover .button{
+          transform: scale(1.05);
+          color: white;
+          background-color: #29e546;
+          border-style: solid white;
+          transition-duration: 0.1s;
+          transition: color 0.1s, background-color 0.1s;
+        }
+        .esocial{
+            color: black;
+            border-radius: 10px;
+            font-size-adjust: 16px;
+            width: 300px;
+            text-align: center;
+            align-items: center;
+            
+            }
+            .logo-esocial{
+              width: 200px;
+              margin: 50px;
+              text-align: center;
+            }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="search-container">
+            <input type="text" id="search" placeholder="Buscar por palavra chave...">
+            <button onclick="performSearch()">Buscar</button>
+        </div>
+    </header>
+
+     <!-- funcao para o H2 -->
+    <section id="contact" class="">
+        <h2 onclick="expandCard(this)">+ Serviços de <br> Segurança do Trabalho</h2>
+
+<section id="contact" class="container" style="display: none;">
+    <!-- conteúdo do card -->
+    <h4>▶PPRA </h4>
+        <img class="servicos" src="img/prra.png" alt="Logo">
+        <p>▶PPRA - Programa de Prevenção de Riscos Ambientais (PPRA), é um
+        conjunto de diretrizes e ações que visam identificar,avaliar e controlar
+        os riscos presentes no ambiente de trabalho.
+        <br>
+     ✓ Objetivos:
+       <br>
+        • Identificar riscos ambientais. <br> • Avaliar e controlar riscos. <br>
+        •Promover a saúde e segurança.
+        <br>
+            <a href="orcamento.html">
+                <button class="button">Solicitar Orçamento</button>
+            </a>
+        </p>
+        <h4>▶PGR</h4>
+        <img class="servicos" src="img/pgr.jpeg" alt="Logo">
+        <p>▶PGR -  O Programa de Gerenciamento de Riscos (PGR), é um conjunto de ações e procedimentos adotados pelas organizações para identificar, avaliar, controlar e monitorar os riscos presentes no ambiente de trabalho.
+        <br>
+        ✓Objetivos: <br>
+        • O objetivo principal do PGR é garantir condições de trabalho seguras e
+        saudáveis para todos os colaboradores.
+        <br>
+            <a href="orcamento.html">
+                <button class="button">Solicitar Orçamento</button>
+            </a>
+        </p>
+        <h4>▶LTCAT </h4>
+        <img class="servicos" src="img/ltcat.jpeg" alt="Logo">
+        <p>▶LTCAT- (Laudo Técnico das Condições Ambientais do Trabalho) é um
+        documento técnico elaborado por um profissional habilitado, como um
+        engenheiro de segurança do trabalho ou médico do trabalho.
+        O LTCAT é obrigatório para todas as empresas e deve ser atualizado
+        sempre que houver mudanças significativas nos processos de trabalho.
+        <br>
+            <a href="orcamento.html">
+                <button class="button">Solicitar Orçamento</button>
+            </a>
+        </p>
+    
+        <h4>▶PCMAT</h4>
+        <img class="servicos" src="img/pcmat.jpeg" alt="Logo">
+        <p>▶PCMAT - O PCMAT(Programa de Condições e Meio Ambiente de Trabalho) é
+        um documento essencial no setor da construção civil, regulamentado pela
+        Norma Regulamentadora 18 (NR 18).
+        <Br>
+        O PCMAT é obrigatório para empresas que empregam 20 ou mais
+        trabalhadores no setor da construção civil e deve ser atualizado
+        periodicamente para garantir sua eficácia.
+        <br>
+            <a href="orcamento.html">
+                <button class="button">Solicitar Orçamento</button>
+            </a>
+        </p>
+  
+        <h4>▶PCMSO </h4>
+        <img class="servicos" src="img/pcmso.jpeg" alt="Logo">
+        <p>▶PCMSO - O PCMSO (Programa de Controle Médico de Saúde Ocupacional) é
+        um programa essencial para a preservação da saúde dos trabalhadores em
+        relação aos riscos ocupacionais.<br> Ele é regulamentado pela Norma
+        Regulamentadora 7 (NR 7) e tem como objetivo principal prevenir e
+        rastrear agravos à saúde relacionados ao trabalho
+        <br>
+            <a href="orcamento.html">
+                <button class="button">Solicitar Orçamento</button>
+            </a>
+        </p>
+  
+        <h4>▶LICENCIAMENTO AMBIENTAL </h4>
+        <img class="servicos" src="img/licenciamento.jpeg" alt="Logo">
+        <p>▶LICENCIAMENTO AMBIENTAL  - O Licenciamento Ambiental é um procedimento administrativo fundamental que visa controlar e regular as atividades potencialmente poluidoras ou causadoras de degradação ambiental. Instituído pela Lei nº 6.938/81, que criou a Política Nacional do Meio Ambiente no Brasil, esse procedimento é executado pelos órgãos ambientais competentes, em âmbito federal, estadual e municipal.
+        <br>
+            <a href="orcamento.html">
+                <button class="button">Solicitar Orçamento</button>
+            </a>
+        </p>
+  
+        <h4>▶PEA</h4>
+        <img class="servicos" src="img/pea.jpeg" alt="Logo">
+        <p>▶PEA - O Plano de Emergência Ambiental (PEA) é um documento que
+        descreve as orientações e procedimentos a serem seguidos em caso de
+        emergências ambientai.<br>
+        O PEA é um componente crucial para garantir que as empresas estejam
+        preparadas para lidar com emergências ambientais de forma eficaz e
+        responsável.
+        <br>
+            <a href="orcamento.html">
+                <button class="button">Solicitar Orçamento</button>
+            </a>
+        </p>
+        
+        <h4>▶ O.S</h4>
+        <img class="servicos" src="img/os.png" alt="Logo">
+        <p>▶O.S Ordem de Serviço: <br> (N.R 01) - No ato da contratação antes de iniciar as atividades através da OS ordem de serviço os profissionais são treinados, capacitados e alertados sobre todos os riscos dentro do setor de trabalho e meios de prevenção e
+medidas de controles existentes para a proteção.
+.
+        <br>
+            <a href="orcamento.html">
+                <button class="button">Solicitar Orçamento</button>
+            </a>
+        </p>
+
+        <h4>▶A.P.R- ANÁLISE PRELIMINAR DE RISCO </h4>
+        <img class="servicos" src="img/apr.jpeg" alt="Logo">
+        <p>▶A.P.R- ANÁLISE PRELIMINAR DE RISCO - O objetivo é atribuir soluções de prevenção, atenuação ou neutralização dos riscos antes e/ou durante a execução da atividade pelo trabalhador. A APR é uma ferramenta indispensável para verificação prévia dos riscos que envolvem as atividades.
+        <br>
+            <a href="orcamento.html">
+                <button class="button">Solicitar Orçamento</button>
+            </a>
+        </p>
+
+        <h4>▶P.T- PERMISSÃO DE TRABALHO </h4>
+        <img class="servicos" src="img/pt.jpeg" alt="Logo">
+        <p>▶P.T- PERMISSÃO DE TRABALHO -  A permissão de trabalho garantirá uma checagem dos requisitos básicos e dos Equipamentos de Proteção Individual – EPI inerentes a uma atividade de risco.
+        <br>
+            <a href="orcamento.html">
+                <button class="button">Solicitar Orçamento</button>
+            </a>
+        </p>
+  
+        <h4>▶N.R 31- COMISSÃO INTERNA DE PREVENÇÃO DE ACIDENTE RURAL – CIPATR </h4>
+        <img class="servicos" src="img/nr31.jpeg" alt="Logo">
+        <p>▶N.R 31 -  Define o que pode ser considerado como grave e iminente RISCO NUMA OBRA, e como deve ser feito o embargo ou interdição.
+        <br>
+            <a href="orcamento.html">
+                <button class="button">Solicitar Orçamento</button>
+            </a>
+        </p>
+
+        <h4>▶N.R 05- COMISSÃO INTERNA DE PREVENÇÃO DE ACIDENTES – CIPA </h4>
+        <img class="servicos" src="img/cipa.png" alt="Logo">
+        <p>N.R 05- COMISSÃO INTERNA DE PREVENÇÃO DE ACIDENTES – CIPA -  É ela quem diz qual deve ser o tamanho da comissão, qual é a duração dos mandatos, quem pode
+participar.
+
+        <br>
+            <a href="orcamento.html">
+                <button class="button">Solicitar Orçamento</button>
+            </a>
+        </p>
+  
+        <h4>▶N.R 06 - EQUIPAMENTOS DE PROTEÇÃO INDIVIDUAL – EPI </h4>
+        <img class="servicos" src="img/epi.jpeg" alt="Logo">
+        <p>▶N.R 06 - EQUIPAMENTOS DE PROTEÇÃO INDIVIDUAL – EPI <br> Estabelece o uso de Equipamento de Proteção Individual (EPI), de modo que o trabalhador esteja
+com equipamento seguro e confortável para realizar	as  atividades	do dia sem
+correr	riscos.
+        <br>
+            <a href="orcamento.html">
+                <button class="button">Solicitar Orçamento</button>
+            </a>
+        </p>
+    
+        <h4>▶N.R 10 - SEGURANÇA EM INSTALAÇÕES E SERVIÇOS EM ELETRICIDADE </h4>
+        <img class="servicos" src="img/nr10.jpeg" alt="Logo">
+        <p>▶N.R 10 - SEGURANÇA EM INSTALAÇÕES E SERVIÇOS EM ELETRICIDADE -
+        Garante a segurança e a saúde dos trabalhadores que atuam nas
+        instalações e serviços com eletricidade.
+        <br>
+            <a href="orcamento.html">
+                <button class="button">Solicitar Orçamento</button>
+            </a>
+        </p>
+    
+        <h4>▶N.R 11 </h4>
+        <img class="servicos" src="img/nr11.jpeg" alt="Logo">
+        <p>▶N.R 11- TRANSPORTE, ARMAZENAGEM E MANUSEIO DE MATERIAIS -
+        Estabelece medidas de segurança para o trabalho dos funcionários em
+        transporte, armazenamento e manuseio de materiais e cargas com o
+        objetivo de reduzir o número de acidentes no ambiente de
+        trabalho.(treinamento).
+        <br>
+            <a href="orcamento.html">
+                <button class="button">Solicitar Orçamento</button>
+            </a>
+        </p>
+  
+        <h4>▶N.R 12 - SEGURANÇA NO TRABALHO EM MÁQUINAS E EQUIPAMENTOS </h4>
+        <img class="servicos" src="img/nr12.jpeg" alt="Logo">
+        <p>▶N.R 12 - SEGURANÇA NO TRABALHO EM MÁQUINAS E EQUIPAMENTOS - Previne acidentes e doenças ocupacionais durante o uso de máquinas e equipamentos. Ela
+determina como deve ocorrer a fabricação, a comercialização, a limpeza e o transporte desses equipamentos utilizados pelo trabalhador.
+.(treinamento).
+        <br>
+            <a href="orcamento.html">
+                <button class="button">Solicitar Orçamento</button>
+            </a>
+        </p>
+  
+        <h4>▶NR 13 - CALDEIRAS E VASO S DE PRESSÃO </h4>
+        <img class="servicos" src="img/nr13.jpeg" alt="Logo">
+        <p>▶NR 13 - CALDEIRAS E VASO S DE PRESSÃO - Segurança em Caldeiras, Vasos de pressão, tubulação e tanques no que diz respeito a classificação, instalação, inspeção e capacitação dos trabalhadores para operar uma caldeira e sistemas pressurizados. Explica como classificar, quais são as categorias tanto para caldeiras como para	vasos	de pressão, quais	critérios para	instalação,	para	inspeção	e
+capacitação de trabalhadores. (treinamento).
+
+        <br>
+            <a href="orcamento.html">
+                <button class="button">Solicitar Orçamento</button>
+            </a>
+        </p>
+  
+        <h4>▶N.R 18 - CONDIÇÕES E MEIO AMBIENTE DE TRABALHO NA INDÚSTRIA DA CONSTRUÇÃO </h4>
+        <img class="servicos" src="img/nr18.jpeg" alt="Logo">
+        <p>N.R 18 - CONDIÇÕES E MEIO AMBIENTE DE TRABALHO NA INDÚSTRIA DA
+        CONSTRUÇÃO - <br>
+        Além de passar as informações e normas da empresa ela
+        regulamenta as condições e meio ambiente de trabalho na indústria da
+        construção. Tem como objetivo principal a normatização da boa prática do
+        trabalho com segurança, no respeito ao trabalhador da indústria da
+        construção, na preservação da vida saudável no trabalho. (treinamento).
+        <br>
+            <a href="orcamento.html">
+                <button class="button">Solicitar Orçamento</button>
+            </a>
+        </p>
+  
+        <h4>▶N.R 20 - LÍQUIDOS COMBUSTÍVEIS E INFLAMÁVEIS </h4>
+        <img class="servicos" src="img/nr20.jpeg" alt="Logo">
+        <p>▶N.R 20 - LÍQUIDOS COMBUSTÍVEIS E INFLAMÁVEIS -  O objetivo principal
+        da norma está na segurança e saúde das pessoas envolvidas com
+        inflamáveis (gases e líquidos) e combustíveis (líquidos) em todo ciclo
+        de vida da instalação, iniciando pelo projeto, construção, manutenção
+        operação, até a desativação, abrangendo a  extração,  produção,
+        armazenamento, transferência, manuseio e manipulação. (treinamento).
+        <br>
+            <a href="orcamento.html">
+                <button class="button">Solicitar Orçamento</button>
+            </a>
+        </p>
+  
+        <h4>▶N.R 22 - SEGURANÇA E SAÚDE OCUPACIONAL NA MINERAÇÃO – CIPAMIN </h4>
+        <img class="servicos" src="img/nr22.jpeg" alt="Logo">
+        <p>▶N.R 22 - SEGURANÇA E SAÚDE OCUPACIONAL NA MINERAÇÃO – CIPAMIN - Promove ações preventivas e reduzir os riscos de acidentes lesões e mortes no setor da mineração,
+como qualquer outra NR conta com diversos itens a serem averiguados dentro dos
+ambientes de trabalho para que os riscos possam ser evitados ou amenizados.
+(treinamento).
+
+        <br>
+            <a href="orcamento.html">
+                <button class="button">Solicitar Orçamento</button>
+            </a>
+        </p>
+  
+        <h4>▶N.R 23 - PROTEÇÃO CONTRA INCÊNDIO (TREINAMENTO PARA FORMAÇÃO OU RECICLAGEM DE BRIGADISTAS) </h4>
+        <img class="servicos" src="img/nr23.jpeg" alt="Logo">
+        <p>▶N.R 23 - PROTEÇÃO CONTRA INCÊNDIO (TREINAMENTO PARA FORMAÇÃO OU
+        RECICLAGEM DE BRIGADISTAS) -  Norma regulamentadora que visa determinar
+        quais são as medidas de proteção e combate a incêndios a serem adotadas
+        pelas empresas em todos os casos. Ela traz uma série de disposições que
+        orienta o que deve ser feito para proteger os colaboradores e o
+        patrimônio emcaso de incêndio. (treinamento).
+        <br>
+            <a href="orcamento.html">
+                <button class="button">Solicitar Orçamento</button>
+            </a>
+        </p>
+  
+        <h4>▶N.R 29 - SEGURANÇA E SAÚDE NO TRABALHO PORTUÁRIO </h4>
+        <img class="servicos" src="img/nr29.png" alt="Logo">
+        <p>▶N.R 29 - SEGURANÇA E SAÚDE NO TRABALHO PORTUÁRIO - Aplicam aos trabalhadores portuários em	operações, como	aos demais que exerçam
+atividades	nos portos assim trabalhadores organizados	e instalações portuárias de uso privativo e retro portuárias, situadas dentro
+ou fora do porto organizado.  (treinamento).
+
+        <br>
+            <a href="orcamento.html">
+                <button class="button">Solicitar Orçamento</button>
+            </a>
+        </p>
+  
+        <h3>▶RETROESCAVADEIRA:</h3>
+        <img class="servicos" src="img/retro.jpeg" alt="Logo">
+        <p>▶Treinamento para retroescavadeira - 
+🔧Capacite sua Equipe: Eleve o nível do seu time com operadores de retroescavadeira treinados e certificados. Nossa formação garante eficiência e segurança nos canteiros de obras.  (treinamento).
+        <br>
+            <a href="orcamento.html">
+                <button class="button">Solicitar Orçamento</button>
+            </a>
+        </p>
+    
+        <h4>▶N.R 34 - CONDIÇÕES E MEIO AMBIENTE DE TRABALHO NA INDÚSTRIA NAVAL  </h4>
+        <img class="servicos" src="img/nr34.jpeg" alt="Logo">
+        <p>▶N.R 34 - CONDIÇÕES E MEIO AMBIENTE DE TRABALHO NA INDÚSTRIA NAVAL  - Estabelece medidas de segurança e saúde para trabalho a quente, trabalho em atura, trabalho com exposição a radiações ionizantes trabalhos de jateamento e	hidrojateamento , atividades de
+pintura, movimentação	de cargas, montagem e	desmontagem	de	andaimes
+equipamentos portáteis, instalações elétricas.  (treinamento).
+
+
+        <br>
+            <a href="orcamento.html">
+                <button class="button">Solicitar Orçamento</button>
+            </a>
+        </p>
+  
+        <h4>▶N.R 35 - TRABALHO EM ALTURA  </h4>
+        <img class="servicos" src="img/nr35.jpeg" alt="Logo">
+        <p>▶N.R 35 - TRABALHO EM ALTURA  - Aborda sobre o trabalho em altura.
+        Ensina o uso adequado de EPI e EPC. Trabalhar em locais altos, sem
+        equipamentos de segurança que mantenham o trabalhador preso em caso de
+        queda ou sem um treinamento que evidencie a conduta adequada, viola os
+        princípios de segurança no trabalho. (treinamento).
+
+        <br>
+            <a href="orcamento.html">
+                <button class="button">Solicitar Orçamento</button>
+            </a>
+        </p>
+  
+        <h4>▶N.R 33- SEGURANÇA E SAÚDE NO TRABALHO EM ESPAÇOS CONFINADOS </h4>
+        <img class="servicos" src="img/nr33.jpeg" alt="Logo">
+        <p>▶N.R 33- SEGURANÇA E SAÚDE NO TRABALHO EM ESPAÇOS CONFINADOS -
+        Estabelecer	os	requisitos mínimos para	identificação de espaços
+        confinados e o reconhecimento, avaliação, monitoramento e controle dos
+        riscos existentes, de forma a garantir permanentemente a segurança e
+        saúde dos trabalhadores que interagem direta ou indiretamente nestes
+        espaços”. (treinamento).
+
+        <br>
+            <a href="orcamento.html">
+                <button class="button">Solicitar Orçamento</button>
+            </a>
+        </p>
+        
+        <h4>▶PPR</h4>
+        <img class="servicos" src="img/ppr.jpeg" alt="Logo">
+        <p>▶ PPR – Programa de Proteção Respiratória
+        <br>
+        <p> O Programa de Proteção Respiratória (PPR) é um conjunto de
+        medidas e procedimentos destinados a proteger os trabalhadores contra a
+        inalação de substâncias nocivas no ambiente de trabalho</p>
+            <a href="orcamento.html">
+                <button class="button">Solicitar Orçamento</button>
+            </a>
+        </p>
+        
+        <h4>▶PAE - Plano de Atendimento a Emergência</h4>
+        <img class="servicos" src="img/pae.jpeg" alt="Logo">
+        <br>
+        <p>▶ (PAE) é um documento essencial que detalha os procedimentos a serem
+        seguidos em caso de emergência.<br>
+        projetado para garantir respostas rápidas e seguras, minimizando danos a
+        pessoas, propriedades e ao meio ambiente.
+        <br>
+        
+            <a href="orcamento.html">
+                <button class="button">Solicitar Orçamento</button>
+            </a>
+        </p>
+        
+        <h4>▶PCA - Programa de Conservação Auditiva</h4>
+        <img class="servicos" src="img/pca.jpeg" alt="Logo">
+        <p>▶ O Programa de Conservação Auditiva (PCA) é um conjunto de
+        medidas e ações destinadas a proteger a audição dos trabalhadores
+        expostos a níveis elevados de ruído no ambiente de trabalho. <br>
+        O PCA faz parte do Programa de Controle Médico de Saúde Ocupacional
+        (PCMSO) e visa prevenir a Perda Auditiva Induzida por Níveis de Pressão
+        Sonora Elevados.
+        <br>
+            <a href="orcamento.html">
+                <button class="button">Solicitar Orçamento</button>
+            </a>
+        </p>
+        
+        <h4>▶Programa de Boas Práticas</h4>
+        <img class="servicos" src="img/pbp.jpeg" alt="Logo">
+        <p>▶ O Programa de Boas Práticas é uma iniciativa que visa promover
+        padrões elevados de qualidade e segurança em diversos setores, como
+        saúde, alimentação e manufatura. Esses programas são desenvolvidos para
+        garantir que as organizações sigam práticas recomendadas e
+        regulamentações para proteger a saúde e a segurança dos consumidores e
+        trabalhadores.
+        <br>
+            <a href="orcamento.html">
+                <button class="button">Solicitar Orçamento</button>
+            </a>
+        </p>
+        
+        <h4>▶Programa PAZ- Acidente Zero</h4>
+        <img class="servicos" src="img/paz.png" alt="Logo">
+        <p>▶ O Programa Acidente Zero (PAZ) é uma iniciativa focada em reduzir acidentes de trabalho e melhorar a segurança no ambiente de trabalho. Ele envolve uma série de práticas e procedimentos para prevenir acidentes e promover um ambiente de trabalho mais seguro.
+        <br>
+            <a href="orcamento.html">
+                <button class="button">Solicitar Orçamento</button>
+            </a>
+        </p>
+        
+        <h4>▶Programas de Ergonomias <br>( Laudos ergonômicos)</h4>
+        <img class="servicos" src="img/ergonomia.png" alt="Logo">
+        <p>▶ Programas de Ergonomia são iniciativas que visam otimizar o
+        ambiente de trabalho para melhorar o conforto, a segurança e a
+        eficiência dos trabalhadores. Eles são fundamentados na ciência da
+        ergonomia, que estuda a interação entre os trabalhadores e seu ambiente,
+        buscando adaptar o ambiente às características psicofisiológicas dos
+        indivíduos.
+        <br>
+            <a href="orcamento.html">
+                <button class="button">Solicitar Orçamento</button>
+            </a>
+        </p>
+        
+        <h4>▶Entre outros Serviços que forem solicitados.</h4>
+        <img class="servicos" src="img/logo.jpg" alt="Logo">
+        <p>▶ Sempre Trabalhando para oferecer Soluções inovadoras para o seu
+        negócio!<br>
+        
+        <br>
+            <a href="orcamento.html">
+                <button class="button">Solicitar Orçamento</button>
+            </a>
+        </p>
+    </section>
+  </section>
+  <section id="contact" class="">
+        <h2 onclick="expandCard(this)"> +Serviços de <br> Engenharia Civil</h2>
+
+<section id="contact" class="container" style="display: none;">
+    <!-- conteúdo do card -->
+    <h4>▶ Execução de Obras </h4>
+        <img class="servicos" src="img/obra.jpeg" alt="Logo">
+        <p>▶ A execução de obras é o processo de transformar um projeto
+        arquitetônico em realidade, seguindo todas as especificações técnicas,
+        normativas e legais. Envolve uma série de etapas que vão desde o
+        planejamento até a entrega final da obra.
+        <br>
+        
+        <br>
+            <a href="orcamento.html">
+                <button class="button">Solicitar Orçamento</button>
+            </a>
+        </p>
+        
+        <h4>▶ Reformas</h4>
+        <img class="servicos" src="img/reforma.jpeg" alt="Logo">
+        <p>▶ Reformas são intervenções realizadas em edificações com o objetivo de modificar, melhorar ou restaurar estruturas e instalações existentes. Elas podem variar desde pequenas alterações até projetos mais complexos que envolvem mudanças significativas na infraestrutura do imóvel.
+
+        <br>
+        
+        <br>
+            <a href="orcamento.html">
+                <button class="button">Solicitar Orçamento</button>
+            </a>
+        </p>
+        
+        <h4>▶ Orçamentos</h4>
+        <img class="servicos" src="img/orcamento.jpeg" alt="Logo">
+        <p>▶ orçamentos, seja para projetos, reformas, obras ou qualquer outro tipo de trabalho. Um orçamento bem-feito é essencial para garantir que todas as despesas sejam previstas e controladas.
+        <br>
+        
+        <br>
+            <a href="orcamento.html">
+                <button class="button">Solicitar Orçamento</button>
+            </a>
+        </p>
+        
+        <h4>▶ Documentação para Alvara <br> (imóvel, estabelecimentos comerciais, Postos de Combustíveis entre outros)</h4>
+        <img class="servicos" src="img/alvara.jpeg" alt="Logo">
+        <p>🏢 Serviço de Documentação para Alvará pela WS Engenharia.<br>
+
+A WS Engenharia está aqui para facilitar todo o processo de obtenção de alvarás
+para diversos tipos de empreendimentos. Oferecemos um serviço completo de
+documentação para:<br>
+<br>
+1. Imóveis: Cuide de todas as formalidades legais para iniciar sua construção com segurança e conformidade.
+<br>
+2. Estabelecimentos Comerciais: Garanta que seu negócio funcione dentro da lei, com toda a documentação necessária para seu alvará de funcionamento.
+<br>
+3. Postos de Combustíveis: Especialistas em cumprir todos os requisitos técnicos e ambientais, proporcionando tranquilidade para o seu posto.
+<br>
+O que oferecemos:<br>
+- Consultoria Completa: Assessoria em todas as etapas do processo, desde a análise inicial até a obtenção do alvará.
+<br>
+- Documentação Técnica:<br> Preparação e entrega de todos os documentos necessários.
+<br>
+- Acompanhamento de Processos:<br> Monitoramento contínuo junto aos órgãos competentes para garantir que tudo seja aprovado o mais rápido possível.
+<br>
+Benefícios:<br>
+- Agilidade e Eficiência: Reduzimos a burocracia e garantimos rapidez na
+obtenção do seu alvará.
+<br>
+- Conformidade Legal: Você pode confiar que tudo estará dentro das normas e
+leis vigentes.
+<br>
+- Tranquilidade: Com a WS Engenharia, você pode focar no que realmente importa enquanto cuidamos do resto.
+<br>
+📞 Entre em contato conosco e garanta já o seu alvará!<br> A WS Engenharia está pronta para atender você com excelência e profissionalismo.
+        <br>
+        <br>
+            <a href="orcamento.html">
+                <button class="button">Solicitar Orçamento</button>
+            </a>
+        </p>
+        
+        <h4>▶ Elaboração de Projetos Mapas de Riscos</h4>
+        <img class="servicos" src="img/mapa.jpeg" alt="Logo">
+        <p>▶ A WS Engenharia oferece serviços especializados na elaboração de
+        projetos de mapas de riscos. Os mapas de riscos são ferramentas
+        essenciais para identificar, avaliar e comunicar os riscos presentes no
+        ambiente de trabalho, ajudando na prevenção de acidentes e na promoção
+        da segurança dos trabalhadores.
+        <br>
+        
+        <br>
+            <a href="orcamento.html">
+                <button class="button">Solicitar Orçamento</button>
+            </a>
+        </p>
+        
+        <h4>▶ Elaboração de Projetos Linha de Vida</h4>
+        <img class="servicos" src="img/linha.jpeg" alt="Logo">
+        <p>▶ A WS Engenharia oferece serviços especializados na elaboração de projetos de Linhas de Vida, garantindo segurança e conformidade para atividades em altura. Uma Linha de Vida é um sistema de ancoragem projetado para proteger trabalhadores que realizam tarefas em locais elevados, proporcionando segurança contra quedas.
+        <br>
+        <br>
+            <a href="orcamento.html">
+                <button class="button">Solicitar Orçamento</button>
+            </a>
+        </p>
+        
+        <h4>▶ Elaboração de projetos (Estrutural, Elétrico e Hidráulico)</h4>
+        <img class="servicos" src="img/projeto.jpeg" alt="Logo">
+        <p>▶ Na WS Engenharia, oferecemos serviços especializados na elaboração de projetos Estrutural, Elétrico e Hidráulico para garantir a segurança, eficiência e conformidade das suas obras.
+        <br>
+        <br>
+            <a href="orcamento.html">
+                <button class="button">Solicitar Orçamento</button>
+            </a>
+        </p>
+        
+        <h4>▶ Elaboração de Projetos de Combate  a Incêndio</h4>
+        <img class="servicos" src="img/combate.jpeg" alt="Logo">
+        <p>▶ A WS Engenharia oferece serviços especializados na elaboração de projetos de combate a incêndio, garantindo que sua edificação esteja preparada para prevenir e responder a emergências com eficácia e segurança.
+        <br>
+        
+        <br>
+            <a href="orcamento.html">
+                <button class="button">Solicitar Orçamento</button>
+            </a>
+        </p>
+        
+        <h4>▶ Acompanhamento de obras </h4>
+        <img class="servicos" src="img/acompanhamento.jpeg" alt="Logo">
+        <p>▶ A WS Engenharia oferece um serviço completo de acompanhamento de obras para garantir que seu projeto seja executado conforme planejado, dentro do prazo e do orçamento estipulados. Nosso acompanhamento de obras inclui várias etapas importantes para assegurar a qualidade e a segurança da sua construção.
+        <br>
+        
+        <br>
+            <a href="orcamento.html">
+                <button class="button">Solicitar Orçamento</button>
+            </a>
+        </p>
+        
+        <h4>▶ Elaboração de laudos técnicos</h4>
+        <img class="servicos" src="img/laudos.jpeg" alt="Logo">
+        <p>▶ A WS Engenharia oferece serviços especializados na elaboração de laudos técnicos, atendendo a diversas necessidades e setores. Os laudos técnicos são documentos detalhados que fornecem análises e avaliações de condições específicas, garantindo conformidade com normas e regulamentos técnicos.
+        <br>
+        
+        <br>
+            <a href="orcamento.html">
+                <button class="button">Solicitar Orçamento</button>
+            </a>
+        </p>
+        <h4>▶ Serviço com placas em Dry Wall </h4>
+        <img class="servicos" src="img/dry.jpeg" alt="Logo">
+        <p>▶ A WS Engenharia oferece serviços especializados em instalação de Dry Wall, uma solução moderna e eficiente para divisórias, revestimentos e forros. O Dry Wall é um sistema de construção a seco, utilizando placas de gesso acartonado fixadas em uma estrutura de perfis metálicos, proporcionando várias vantagens em termos de praticidade e desempenho.
+        <br>
+        <br>
+            <a href="orcamento.html">
+                <button class="button">Solicitar Orçamento</button>
+            </a>
+        </p>
+        <h4>▶ Serviço com placas de Gesso</h4>
+        <img class="servicos" src="img/gesso.jpeg" alt="Logo">
+        <p>▶ A WS Engenharia oferece serviços especializados em instalação de placas de gesso, proporcionando soluções versáteis e elegantes para o seu projeto. As placas de gesso são amplamente utilizadas em construções e reformas devido à sua facilidade de uso e excelente acabamento.
+        <br>
+        
+        <br>
+            <a href="orcamento.html">
+                <button class="button">Solicitar Orçamento</button>
+            </a>
+        </p>
+        <h4>▶Entre outros Serviços que forem solicitados.</h4>
+        <img class="servicos" src="img/logo.jpg" alt="Logo">
+        <p>▶ Sempre Trabalhando para oferecer Soluções inovadoras para o seu
+        negócio!<br>
+        <br>
+            <a href="orcamento.html">
+                <button class="button">Solicitar Orçamento</button>
+            </a>
+        </p>
+    </section>
+    </section>
+
+    <section id="contact" class="">
+        <h2 onclick="expandCard(this)">+Serviços de <br> Engenharia Ambiental</h2>
+
+<section id="contact" class="container" style="display: none;">
+    <!-- conteúdo do card -->
+    <h3>
+        🌿Engenharia Ambiental🌿
+    </h3>
+<br>
+<p>
+  Na WS Engenharia, estamos comprometidos em proporcionar soluções ambientais
+  eficientes e sustentáveis. Nossa equipe de especialistas oferece uma ampla
+  gama de serviços na área de Engenharia Ambiental, sempre integrando o
+  desenvolvimento econômico com a preservação ambiental.
+
+<br>
+<p>
+  <h4>
+    Licenciamento Ambiental
+  </h4><br>
+Garantimos a obtenção de licenças ambientais de maneira ágil e conforme as
+regulamentações vigentes, permitindo que seu projeto avance sem complicações
+legais.
+<br>
+<img class="servicos" src="img/licenciamento.jpeg">
+ <br>
+ <a href="orcamento.html">
+                <button class="button">Solicitar Orçamento</button>
+            </a>
+            </p>
+<br>
+</p>
+<p>
+  <h4>
+    Gestão de Resíduos
+  </h4>
+  <br>
+Implementamos programas de gestão de resíduos que visam a redução, reutilização
+e reciclagem, promovendo práticas que minimizam o impacto ambiental e maximizam
+a eficiência operacional.
+<br>
+<img class="servicos" src="img/residuos.jpeg">
+ <br>
+ <a href="orcamento.html">
+                <button class="button">Solicitar Orçamento</button>
+            </a>
+            </p>
+<br>
+</p>
+<p>
+  <br>
+  <h4>Consultoria Ambiental</h4>
+<br>
+Oferecemos consultoria especializada para ajudar empresas a cumprir as exigências ambientais e adotar práticas sustentáveis. Nossa equipe está pronta para orientar em todas as etapas do seu projeto.
+<br>
+<img class="servicos" src="img/consulta.jpeg">
+ <br>
+ <a href="orcamento.html">
+                <button class="button">Solicitar Orçamento</button>
+            </a>
+            </p>
+<br>
+</p>
+<p>
+  <h4>
+    Cursos e Treinamentos
+  </h4>
+  <br>
+Realizamos cursos e treinamentos personalizados para capacitar sua equipe em temas relacionados à sustentabilidade, gestão ambiental e cumprimento das normas vigentes.
+<br>
+<img class="servicos" src="img/cursos.jpeg">
+ <br>
+ <a href="orcamento.html">
+                <button class="button">Solicitar Orçamento</button>
+            </a>
+            </p>
+</p>
+<p>
+<h4>Elaboração de Projetos Sustentáveis</h4>
+Desenvolvemos projetos que equilibram o desenvolvimento econômico com a preservação ambiental, proporcionando soluções inovadoras e sustentáveis para seu negócio.
+<br>
+<img class="servicos" src="img/esocial1.jpeg">
+ <br>
+ <a href="orcamento.html">
+                <button class="button">Solicitar Orçamento</button>
+            </a>
+            </p>
+</p>
+<p>
+  <br><h4>PGRS - Programa de Gerenciamento de Resíduos Sólidos</h4>
+<br>
+Desenvolvemos e implementamos o PGRS, atendendo às exigências legais e
+promovendo a gestão responsável dos resíduos sólidos gerados pela sua empresa.
+<br>
+<img class="servicos" src="img/esocial1.jpeg">
+ <br>
+ <a href="orcamento.html">
+                <button class="button">Solicitar Orçamento</button>
+            </a>
+            </p>
+</p>
+<br>
+<p>
+  <br>
+<h4>Outros Programas e Laudos</h4><br>
+Atendemos diversas necessidades, elaborando programas e laudos técnicos
+específicos que sejam solicitados, garantindo conformidade e eficiência em suas
+operações.
+</p>
+
+    </section>
+    </section>
+    
+    
+    <section id="contact" class="">
+        <h2 onclick="expandCard(this)">+Serviços para <br> eSocial</h2>
+
+<section id="contact" class="container" style="display: none;">
+    <!-- conteúdo do card -->
+    
+<h4>
+  Gestão eSocial
+  </h4>
+  <p>
+    A WS Engenharia oferece serviços completos de gestão eSocial, assegurando
+    que sua empresa esteja em conformidade com todas as obrigações legais.
+    Nossos especialistas cuidam de todo o processo, garantindo a precisão e a
+    eficiência no envio das informações trabalhistas e previdenciárias.
+  </p>
+<br>
+<h4>
+  Envio dos Eventos (S-2210, S-2220, S-2240)
+  <br>
+  <img class="servicos" src="img/esocial1.jpeg">
+  </h4>
+  <p>
+    Realizamos o envio dos eventos S-2210, S-2220 e S-2240, relacionados a
+    condições de trabalho, monitoramento da saúde dos trabalhadores e exposição
+    a agentes nocivos, de maneira precisa e dentro dos prazos legais.
+    <br>
+            <a href="orcamento.html">
+                <button class="button">Solicitar Orçamento</button>
+            </a>
+  </p>
+  
+<br>
+<h4>
+  Envio de CAT (Comunicação de Acidente de Trabalho)
+  <br>
+  <img class="servicos" src="img/acompanhamento.jpeg">
+  </h4>
+  <p>
+    Oferecemos suporte completo no envio da Comunicação de Acidente de Trabalho
+    (CAT), garantindo que todas as informações sejam registradas corretamente,
+    atendendo às exigências legais e proporcionando segurança aos trabalhadores.
+    <br>
+            <a href="orcamento.html">
+                <button class="button">Solicitar Orçamento</button>
+            </a>
+  </p>
+  <br>
+  <br>
+<h4>
+  Elaboração de PPP (Perfil Profissiográfico Previdenciário)
+  <br>
+  <img class="servicos" src="img/laudos.jpeg">
+  </h4>
+  <p>
+    Preparamos o Perfil Profissiográfico Previdenciário (PPP) com todos os
+    detalhes necessários para documentar a história laboral dos seus
+    trabalhadores, facilitando o processo de aposentadoria especial e garantindo
+    conformidade com as normas previdenciárias.
+    <br>
+            <a href="orcamento.html">
+                <button class="button">Solicitar Orçamento</button>
+            </a>
+  </p>
+  <br>
+<h4>
+  Consultoria:
+  <br>
+  <img class="servicos" src="img/mapa.jpeg">
+  </h4>
+<p>
+  Nossos serviços de consultoria são personalizados para atender às necessidades
+específicas da sua empresa. Oferecemos orientação técnica em áreas como
+segurança do trabalho, gestão ambiental e saúde ocupacional, ajudando a promover
+um ambiente de trabalho seguro e eficiente.
+<br>
+            <a href="orcamento.html">
+                <button class="button">Solicitar Orçamento</button>
+            </a>
+</p>
+<br>
+<br>
+<h4>
+  Acompanhamento e Visitas Técnicas para Avaliação do Ambiente de
+  Trabalho
+  <br>
+  <img class="logo" src="img/reforma.jpeg">
+  </h4>
+<p>
+  Realizamos acompanhamentos e visitas técnicas regulares para avaliar o ambiente
+de trabalho. Identificamos possíveis riscos e propomos soluções práticas e
+eficazes para melhorar as condições de trabalho, garantindo a saúde e a
+segurança dos seus colaboradores.
+<br>
+            <a href="orcamento.html">
+                <button class="button">Solicitar Orçamento</button>
+            </a>
+</p>
+
+    </section>
+    </section>
+        
+    <section id="contact" class="">
+        <h2 onclick="expandCard(this)">+Serviços de <br> Consultoria</h2>
+
+<section id="contact" class="container" style="display: none;">
+    <!-- conteúdo do card -->
+    <p>
+      <h3>
+        A WS Engenharia oferece consultorias especializadas <br> para atender às
+        necessidades de diversos setores. Confira nossos serviços de
+        consultoria:
+      </h3>
+      
+<br>
+ <h2> Nossos Serviços de Consultoria</h2>
+<br>
+1. Consultoria em Engenharia Civil:<br>
+   - Planejamento e gerenciamento de projetos de construção.<br>
+   - Análises estruturais e inspeções técnicas.<br>
+   - Suporte em normas e regulamentações de construção.<br>
+<br>
+2. Consultoria em Segurança do Trabalho:<br>
+   - Elaboração de Programas de Prevenção de Riscos Ambientais (PPRA).<br>
+   - Implementação de Programas de Proteção Respiratória (PPR).<br>
+   - Avaliações ergonômicas e elaboração de laudos.
+<br>
+<br>
+3. Consultoria Ambiental:<br>
+   - Estudos de impacto ambiental.<br>
+   - Gestão de resíduos e controle de poluição.<br>
+   - Licenciamento ambiental.<br>
+<br>
+4. Consultoria para Obtenção de Alvarás e Licenças:<br>
+   - Assessoria completa para obtenção de alvarás de construção e
+   funcionamento.<br>
+   - Regularização de imóveis e estabelecimentos comerciais.<br>
+   - Licenciamento para postos de combustíveis e outras atividades
+   específicas.<br>
+<br>
+5. Consultoria em Sustentabilidade:<br>
+   - Implementação de práticas sustentáveis em construções e reformas.<br>
+   - Certificação de edificações verdes.<br>
+   - Eficiência energética e uso de tecnologias limpas.<br>
+<br>
+<br>
+<h2> Por que Escolher a WS Engenharia?</h2>
+ 
+<br>
+- Equipe Especializada: Profissionais qualificados com ampla experiência no mercado.
+<br>
+<br>
+- Soluções Personalizadas: Atendimento sob medida para as necessidades do seu projeto.
+<br>
+- Qualidade e Conformidade: Garantia de serviços de alta qualidade e em conformidade com as normas vigentes.
+<br>
+<br>
+📞 Entre em contato conosco e descubra como a WS Engenharia pode ajudar a
+transformar seus projetos em realidade com segurança, eficiência e
+sustentabilidade.
+
+            <br>
+<br>
+ <br>
+ <img class="logo-esocial" src="img/logo2.jpg">
+ <br>
+ <br>
+       <a href="orcamento.html">
+                <button class="esocial"><h5>📞 Entre em contato conosco</h5> </button>
+            </a>
+<br>
+<br>
+    </section>
+    </section>
+    
+    <section id="contact" class="footer">
+        <div class="social-links">
+            <a href="https://wa.me/5564992952748?text=Ol%C3%A1%20WSENGENHARIA!%20Vi%20seu%20site%20e%20gostaria%20de%20contratar%20alguns%20de%20seus%20servi%C3%A7os.%20pode%20me%20atender%20no%20momento%20?" target="_blank">
+                <img class="links" src="img/whatsaapp-logo.png" alt="WhatsApp">
+            </a>
+            <a href="https://www.instagram.com/atecseven_tecnologia" target="_blank">
+                <img src="img/instagram-logo.png" alt="Instagram">
+            </a>
+            <a href="https://www.facebook.com/seu-usuario" target="_blank">
+                <img src="img/facebook-logo.png" alt="Facebook">
+            </a>
+            <a href="https://www.linkedin.com/in/seu-usuario" target="_blank">
+                <img src="img/linkedin-logo.png" alt="LinkedIn">
+            </a>
+        </div>
+    </section>
+     <footer>
+        <div class="footer">
+            <p>&copy; 2024 Ws Engenharia, consultoria e treinamentos.
+            <br> <p3>Cnpj: 41.467.540/0001-67</p3>
+            
+            <br>
+            Todos os direitos reservados.</p>
+            <a class="link-atecseven" href="https://atec7.github.io/atecseven.com.br/">Power Bi &copf; Atecseven tecnologia</a>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+    <script>
+        function performSearch() {
+            const query = document.getElementById('search').value.toLowerCase();
+            const elements = document.body.getElementsByTagName("p");
+            const resultsContainer = document.createElement("section");
+            resultsContainer.className = "container";
+            resultsContainer.innerHTML = "<h2>Resultados da Pesquisa</h2>";
+            let hasResults = false;
+
+            for (let element of elements) {
+                element.style.backgroundColor = "";
+            }
+            if (query) {
+                for (let element of elements) {
+                    if (element.innerText.toLowerCase().includes(query)) {
+                        element.style.backgroundColor = "yellow";
+                        const clone = element.cloneNode(true);
+                        resultsContainer.appendChild(clone);
+                        hasResults = true;
+                    }
+                }
+            }
+
+            if (hasResults) {
+                document.body.insertBefore(resultsContainer, document.body.firstChild);
+                window.scrollTo(0, 0);
+            }
+        }
+        function expandCard(element) {
+    const card = element.nextElementSibling;
+    if (card.style.display === "block") {
+        card.style.display = "none";
+    } else {
+        card.style.display = "block";
+    }
+}
+    </script>
+</body>
+</html>
